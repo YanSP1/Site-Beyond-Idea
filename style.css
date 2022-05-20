@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(3, 6, 27);
+    color: aliceblue;
+    background-attachment: fixed;
+    background-position: center center;
+    background: rgb(3, 6, 27);
+}
+
+/* TEXTO */
+.introducao {
+    border-radius: 20px;
+    width: 60%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(108, 0, 190);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Processo */
+.processo {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    padding: 2px;
+    width: 240px;
+    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cardProduto {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.cardButton {
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(108, 0, 190);
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tituloProcesso {
+    border-radius: 20px;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cardDescription {
+    color: aliceblue;
+    width: 200px;
+    border-bottom: 100px;
+    margin-bottom: 45px;
+    margin-top: 37px;
+}
+
+.cardDescription1 {
+    color: aliceblue;
+    width: 200px;
+    border-bottom: 100px;
+    margin-top: 10px;
+}
+
+/*MENU*/
+.menu {
+    color:aliceblue;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:hover {
+    opacity: 0.7;
+}
+.logo {
+    font-size: 24px;
+    color: rgb(40, 174, 252);
+    text-decoration: none;
+    transition: 0.3s;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000000;
+    height: 8vh;
+}
+.menuItens {
+    list-style: none;
+    display: flex;
+}
+.menuItens li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+/* SOBRE */
+.tituloSobre {
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.textoSobre{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 150px;
+}
+
+.textoSobre2 {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+.lista {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 150px;
+    text-decoration:dotted;
+}
+
+.tituloSobre2 {
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Contatos */
+.contatosTitulo {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.contatos {
+    width: 800px;
+    margin: 104px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    border: 0;
+    
+}
+
+.cardContatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    width: 240px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+.textoContatos {
+    margin-bottom: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Formulário Contatos */
+.tituloDuvida {
+    font-size: 20px;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.inputDuvida {
+    position: relative;
+    margin: 5px;
+}
+
+.inputDuvida input {
+    outline: none;
+    font-size: 15px;
+    color: aliceblue;
+    width: 90%;
+    background-color: #161616;
+}
+
+.inputDuvida input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+form input[type="submit"] {
+    margin-top: 2px;
+    padding: 10px;
+    width: 90%;
+    background-color: rgb(40, 174, 252);
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+}
+
+.assuntoContato {
+    width: 90%;
+}
+
+/* novidades */
+.noviadesCard {
+    width: 800px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    border: 0;
+}
+
+.cardNovidades {
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    width: 98%;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+.imagemCardNovidade {
+    border-radius: 10px;
+}
+
+.textoCardNovidades {
+    flex-direction: column;
+    
+}
+.dataCardNovidade {
+    margin: 5px;
+    font-size: 20px;
+}
+.tituloCardNovidade {
+    margin: 5px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cardNovidadeDescription {
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Services */
+
+.services {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cardServices1 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    display: flex;
+    background: url(programando.png);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+.cardServices1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    -webkit-transform: scale(1.1);
+}
+
+.cardServices2 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    display: flex;
+    background: url(rede.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+.cardServices2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    -webkit-transform: scale(1.1);
+}
+
+.cardServices3 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    display: flex;
+    background: url(equipe.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+.cardServices3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    -webkit-transform: scale(1.1);
+}
+
+.services2 {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cardServices4 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    display: flex;
+    background: url(armazenamento.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+.cardServices4:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    -webkit-transform: scale(1.1);
+}
+
+.cardServices5 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    display: flex;
+    background: url(backup.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+.cardServices5:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    -webkit-transform: scale(1.1);
+}
+
+.cardServices6 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    display: flex;
+    background: url(persona.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+.cardServices6:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    -webkit-transform: scale(1.2);
+}
+
+.textCardServices {
+    color: white;
+    margin-left: 5px;
+    opacity: 1;
+    text-shadow: 1px 1px 1px black;
+    line-height: 360px;
+    background-position: 50% 50%;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    color: white;
+    bottom: 0%;
+    background: #161616;
+}
